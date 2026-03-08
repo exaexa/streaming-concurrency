@@ -31,6 +31,7 @@ source-repository head
 
 library
   exposed-modules:     Streaming.Concurrent
+                     , Streaming.Concurrent.Deterministic
                      , Streaming.Concurrent.Lifted
   build-depends:       base ==4.*
                      , exceptions >= 0.6 && < 0.11
